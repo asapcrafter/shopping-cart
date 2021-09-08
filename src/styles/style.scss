@@ -84,3 +84,16 @@ body {
     // Set margin equal to the header heigh
     margin-top: 90px;
 }
+
+// Styling for each product items
+.product {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    border: black solid;
+    .quantity-container {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+}
