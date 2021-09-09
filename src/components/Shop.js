@@ -5,13 +5,16 @@ import Item from './Item';
 const Shop = () => {
     const [cart, setCart] = useState(0)
 
-    // Array of product objects is used for component creation
+    // Array of product objects used for component creation
     const productArray = products();
     
     return (
         <div className='content'>
-            SHOP PAGE
             <div className="shop-wrapper">
+                <div className="shop-info-container">
+                    <div>Our Customer Favorites</div>
+                    <div>Build your custom routine with these products!</div>
+                </div>
                 <div className="shop-container">
                     {productArray.map(i => <Item {...i} key={i.id} />)}
                 </div>

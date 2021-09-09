@@ -3,14 +3,16 @@ import React, {useState} from 'react';
 const Item = (props) => {
     const [quantity, setQuantity] = useState(0)
 
-    const incrementQuantity = () => setQuantity(quantity + 1)
+    const incrementQuantity = () => setQuantity(parseInt(quantity) + 1)
     const decrementQuantity = () => setQuantity(quantity - 1)
 
+    const handleChange = e => {
+        setQuantity(e.target.value)
+    }
+    
     return (
         <div className="product">
-            <div className="product-img">
-                {props.image}
-            </div>
+            <img src={props.image} alt="" className="product-img" />
             <div className="product-container">
                 <div className="product-brand">
                     {props.brand}
@@ -22,12 +24,12 @@ const Item = (props) => {
                     {props.description}
                 </div>
                 <div className="product-price">
-                    {props.price}
+                    ${props.price}
                 </div>
                 <div className="quantity-container">
-                    <div className="quant-minus">-</div>
-                    <div className="quantity">{quantity}</div>
-                    <div className="quant-add">+</div>
+                    <div className="quant-minus" onClick={decrementQuantity}>-</div>
+                    <input type="number" name="" className='quant-input' value={quantity} onChange={handleChange} min='0' />
+                    <div className="quant-add" onClick={incrementQuantity}>+</div>
                     <div className="add-product">
                         Add to Bag
                     </div>
