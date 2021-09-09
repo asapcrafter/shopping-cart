@@ -16,10 +16,10 @@ const Header = () => {
                     PEKOE BEAUTY
                 </div>
                 <div className='nav-container'>
-                    <div className="nav-item" id="home-page" onClick={() => handleClick('/')}>HOME</div>
-                    <div className="nav-item" id="shop-page" onClick={() => handleClick('/shop')}>SHOP ALL</div>
-                    <div className="nav-item" id="about-page" onClick={() => handleClick('/about')}>ABOUT</div>
-                    <div className="nav-item" id="cart-page" onClick={() => handleClick('/cart')}>CART</div>
+                    <div className="nav-item" id="home-page" onClick={() => handleClick('/shopping-cart/')}>HOME</div>
+                    <div className="nav-item" id="shop-page" onClick={() => handleClick('/shopping-cart/shop')}>SHOP ALL</div>
+                    <div className="nav-item" id="about-page" onClick={() => handleClick('/shopping-cart/about')}>ABOUT</div>
+                    <div className="nav-item" id="cart-page" onClick={() => handleClick('/shopping-cart/cart')}>CART</div>
                 </div>
             </div>
         </div>
