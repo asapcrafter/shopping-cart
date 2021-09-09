@@ -5,7 +5,6 @@ const Home = () => {
     return (
         <div className='content'>
             <div id="home-wrapper">
-                Home page!
                 < Promo />
             </div>
         </div>
