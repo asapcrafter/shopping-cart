@@ -121,6 +121,7 @@ body {
 }
 
 .bottom-wrapper {
+  margin-top: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,28 +129,30 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
-  position: absolute;
-  bottom: 0;
   background-color: white;
 }
 
 .bottom-wrapper .bottom-container {
+  width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 67%;
-          flex: 1 0 67%;
   margin-top: 10px;
   background: white;
 }
@@ -162,7 +165,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  width: 260px;
   margin-bottom: 15px;
 }
 
@@ -177,7 +179,30 @@ body {
   margin-top: 90px;
 }
 
-#home-wrapper {
+#home {
+  height: 100%;
+}
+
+#home #home-wrapper {
+  height: 100%;
+}
+
+#home #home-wrapper .home-background {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../assets/background-curology.jpg);
+  height: 43.8vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 85px;
+}
+
+#home #home-wrapper .home-background #home-greeting {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,6 +210,27 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: 55px;
+  padding-top: 65px;
+  width: 1000px;
+}
+
+#home #home-wrapper .home-background #home-greeting #hg-title {
+  font-size: 45px;
+  letter-spacing: 1px;
+}
+
+#home #home-wrapper .home-background #home-greeting #hg-description {
+  width: 500px;
+  margin-top: 5px;
+  font-family: freight-light;
+  font-size: 25px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+#home #home-wrapper .home-background #home-greeting #hg-button {
+  margin-top: 5px;
 }
 
 .promo-container {
