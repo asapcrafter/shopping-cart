@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.217175a8.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.bba1f310.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.bba1f310.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.84c7d18a.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.84c7d18a.js.map",
+    "static/js/2.f8d918ce.chunk.js": "/shopping-cart/static/js/2.f8d918ce.chunk.js",
+    "static/js/2.f8d918ce.chunk.js.map": "/shopping-cart/static/js/2.f8d918ce.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.217175a8.chunk.css.map": "/shopping-cart/static/css/main.217175a8.chunk.css.map",
+    "static/js/2.f8d918ce.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.f8d918ce.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/shopping-cart/static/media/FuturaBook.8ff9389b.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84c7d18a.js",
+    "static/js/2.f8d918ce.chunk.js",
+    "static/css/main.217175a8.chunk.css",
+    "static/js/main.bba1f310.chunk.js"
+  ]
+}
