@@ -12,11 +12,11 @@ const Item = (props) => {
                 {props.image}
             </div>
             <div className="product-container">
-                <div className="product-name">
-                    {props.name}
-                </div>
                 <div className="product-brand">
                     {props.brand}
+                </div>
+                <div className="product-name">
+                    {props.name}
                 </div>
                 <div className="product-description">
                     {props.description}
