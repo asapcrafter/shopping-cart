@@ -148,7 +148,7 @@ input {
                 display: flex;
                 flex-direction: column;
                 margin-left: 135px;
-                padding-top: 110px;
+                padding-top: 15vw;
                 width: 1000px;
                 color: black;
                 #hg-title {
@@ -171,6 +171,11 @@ input {
                     text-align: center;
                     width: 120px;
                     background-color: #d51280;
+                    &:hover {
+                        transition: 0.4s;
+                        color: #eb359c;
+                        background-color: rgb(255, 230, 230);
+                    }
                 }
             }
         }
@@ -235,16 +240,24 @@ input {
     align-items: center;
     width: 100%;
     .shop-info-container {
-        width: 500px;
-        border:black solid;
-        margin-top: 30px;
+        width: 600px;
+        // border:black solid;
+        margin-top: 40px;
+        text-align: center;
+        font-size: 30px;
+        font-family: freight-light;
+        letter-spacing: 1px;
+        word-spacing: 1.2px;
+        .shop-info-item {
+            margin-bottom: 40px;
+        }
     }
     .shop-container {
         max-width: 1600px;
         display: flex;
         flex-flow: row wrap ;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 50px;
         margin-left: 10px;
     }
 }
@@ -258,6 +271,11 @@ input {
     margin-right: 30px;
     margin-bottom: 40px;
     margin-top: 10px;
+    // &:hover .product-img {
+    //     // opacity: 0.85;
+    //     transition: 0.4s;
+    //     transform: translate(0em, -0.5em)
+    // }
     .product-img {
         width: 100%;
         height: 500x;
@@ -267,7 +285,7 @@ input {
             font-weight: 600;
             font-size: 20px;
             letter-spacing: 0.7px;
-            margin-top: 10px;
+            margin-top: 18px;
         }
         .product-name {
             margin-top: 5px;
@@ -275,18 +293,20 @@ input {
         .product-description {
             margin-top: 8px;
         }
-        .product-price {
-            margin-top: 10px;
-        }
         .quantity-container {
             margin-top: 4px;
             display: flex;
             flex-flow: row nowrap;
+            align-items: center;
+            .product-price {
+                display: flex;
+                margin-top: 10px;
+            }
             .quant-minus {
                 width: 10px;
                 text-align: center;
                 font-size: 20px;
-                margin-left: 5px;
+                margin-left: 175px;
             }
             .quant-add {
                 width: 10px;
@@ -295,13 +315,23 @@ input {
                 margin-left: 5px;  
             }
             .quant-input {
-                width: 30px;
+                width: 18px;
+                height: 22px;
                 text-align: center;
                 margin-left: 5px;
             }
             .add-product {
                 text-align: center;
-                margin-left: 10px;
+                margin-left: 18px;
+                font-size: 16px;
+                border: #d51280 solid;
+                border-width: 1px;
+                padding: 5px 9px;
+                &:hover {
+                    transition: 0.4s;
+                    background: #ce4492ea;
+                    color: white;
+                }
             }   
         }
     }

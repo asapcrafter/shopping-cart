@@ -1,6 +1,13 @@
 import React from 'react';
+import {useHistory} from 'react-router-dom';
 
 const Promo = () => {
+    const history = useHistory();
+
+    const handleClick = (link) => {
+        history.push(link);
+    }
+
     return (
         <div className="promo-container">
                 <div className="promo-item">
@@ -8,7 +15,7 @@ const Promo = () => {
                     <div className="promo-text">
                         Powerful solutions skillfully developed to moisturize and balance skin while boosting radiance by transforming dull skin.
                     </div>
-                    <div className="promo-button">
+                    <div className="promo-button" onClick={() => handleClick('/shopping-cart/about')}>
                         More about
                     </div>
                 </div>
@@ -26,7 +33,7 @@ const Promo = () => {
                     <div className="promo-text">
                         Only the best ethically sourced ingredients are used within our products. Gentle formulas help for all skin types while actively preventing wrinkles.
                     </div>
-                    <div className="promo-button">
+                    <div className="promo-button" onClick={() => handleClick('/shopping-cart/shop')}>
                         Shop here
                     </div>
                 </div>

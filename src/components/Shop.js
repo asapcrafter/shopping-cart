@@ -12,8 +12,8 @@ const Shop = () => {
         <div className='content'>
             <div className="shop-wrapper">
                 <div className="shop-info-container">
-                    <div>Our Customer Favorites</div>
-                    <div>Build your custom routine with these products!</div>
+                    <div className='shop-info-item'>Our Customer Favorites</div>
+                    <div className='shop-info-item'>Build your custom routine with these products!</div>
                 </div>
                 <div className="shop-container">
                     {productArray.map(i => <Item {...i} key={i.id} />)}
