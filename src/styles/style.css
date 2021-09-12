@@ -16,6 +16,7 @@
   --ice-blue: #a0d2eb;
   --peach: #f3756b;
   --coffee: #e3dbc9;
+  --lavender: #ffbdef;
 }
 
 @font-face {
@@ -54,7 +55,7 @@ input {
 
 .header {
   width: 100%;
-  height: 90px;
+  height: 5.625rem;
   color: var(--peach);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,8 +66,8 @@ input {
   background: white;
   position: fixed;
   top: 0px;
-  letter-spacing: 1px;
-  word-spacing: 1.5px;
+  letter-spacing: 0.0625rem;
+  word-spacing: 0.09375rem;
 }
 
 .header .nav-wrapper {
@@ -85,12 +86,12 @@ input {
 }
 
 .header .nav-wrapper #logo {
-  font-size: 35px;
+  font-size: 2.1875rem;
   margin-left: 25px;
 }
 
 .header .nav-wrapper .nav-container {
-  width: 350px;
+  width: 21.875rem;
   height: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -468,5 +469,38 @@ input {
   transition: 0.4s;
   background: #ce4492ea;
   color: white;
+}
+
+.about-wrapper {
+  height: 100%;
+}
+
+.about-wrapper .about-background {
+  background-image: url(../assets/matcha-background.jpg);
+  height: 43.8vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-wrapper .about-title {
+  margin-top: 60px;
+  font-size: 30px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.about-wrapper .about-text-container {
+  margin-top: 30px;
+  width: 680px;
+}
+
+.about-wrapper .about-text-container .about-text {
+  margin-bottom: 40px;
+  font-family: freight-light;
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 25px;
 }
 /*# sourceMappingURL=style.css.map */
