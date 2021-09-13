@@ -1,0 +1,70 @@
+@use 'mod';
+#home {
+  height: 100%;
+}
+
+#home #home-wrapper {
+  height: 100%;
+}
+
+#home #home-wrapper .home-background {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../../assets/background-curology2.jpg);
+  height: 43.8vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 85px;
+}
+
+#home #home-wrapper .home-background #home-greeting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 135px;
+  padding-top: 15vw;
+  width: rem(800);
+  height: 100%;
+  color: black;
+}
+
+#home #home-wrapper .home-background #home-greeting #hg-title {
+  font-size: 45px;
+  letter-spacing: 3px;
+}
+
+#home #home-wrapper .home-background #home-greeting #hg-description {
+  width: 500px;
+  margin-top: 15px;
+  font-family: freight-light;
+  font-size: 26px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+#home #home-wrapper .home-background #home-greeting #hg-button {
+  margin-top: 35px;
+  letter-spacing: 1px;
+  color: white;
+  padding: 9px 13px;
+  text-align: center;
+  width: 120px;
+  background-color: #d51280;
+}
+
+#home #home-wrapper .home-background #home-greeting #hg-button:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #eb359c;
+  background-color: #ffe6e6;
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,53 @@
+@use 'mod';
+
+#home {
+    height: 100%;
+    #home-wrapper {
+        height: 100%;
+        .home-background {
+            justify-content: center;
+            display: flex;
+            background-image: url(../../assets/background-curology2.jpg);
+            height: 43.8vw;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-bottom: 85px;
+            #home-greeting {
+                display: flex;
+                flex-direction: column;
+                margin-left: 135px;
+                padding-top: 15vw;
+                width: rem(800);
+                height: 100%;
+                color: black;
+                #hg-title {
+                    font-size: 45px;
+                    letter-spacing: 3px;
+                }
+                #hg-description {
+                    width: 500px;
+                    margin-top: 15px;
+                    font-family: freight-light;
+                    font-size: 26px;
+                    letter-spacing: 1px;
+                    word-spacing: 2px;
+                }
+                #hg-button {
+                    margin-top: 35px;
+                    letter-spacing: 1px;
+                    color: white;
+                    padding: 9px 13px;
+                    text-align: center;
+                    width: 120px;
+                    background-color: #d51280;
+                    &:hover {
+                        transition: 0.4s;
+                        color: #eb359c;
+                        background-color: rgb(255, 230, 230);
+                    }
+                }
+            }
+        }
+    }
+}
