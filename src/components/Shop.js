@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import products from './products';
 import Item from './Item';
+import '../styles/css/shop.css'
 
 const Shop = () => {
     const [cart, setCart] = useState(0)

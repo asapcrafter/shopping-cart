@@ -1,17 +1,3 @@
-@function rem($value) {
-    @return ($value / 16) * 1rem;
-}
-
-@font-face {
-    font-family: futura;
-    src: url(../assets/FuturaBook.ttf);
-}
-
-@font-face {
-    font-family: freight-light;
-    src: url(../assets/FreightBigLight.otf);
-}
-
 $peach: #f3756b;
 $hot-lavender: #ffbdef;
 $gray : rgb(131, 102, 102);
@@ -22,4 +8,20 @@ $dark-gray: #DCE1E3;
 $lapis: #39a0ca;
 $ice-blue: #a0d2eb;
 $coffee: #e3dbc9;
+$red: red;
+
+@function rem($value) {
+    @return ($value / 16) * 1rem;
+}
+
+@font-face {
+    font-family: futura;
+    src: url(../../assets/FuturaBook.ttf);
+}
+
+@font-face {
+    font-family: freight-light;
+    src: url(../../assets/FreightBigLight.otf);
+}
+
 

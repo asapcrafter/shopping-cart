@@ -1,0 +1,43 @@
+@font-face {
+  font-family: futura;
+  src: url(../../assets/FuturaBook.ttf);
+}
+
+@font-face {
+  font-family: freight-light;
+  src: url(../../assets/FreightBigLight.otf);
+}
+
+.about-wrapper {
+  height: 100%;
+}
+
+.about-wrapper .about-background {
+  background-image: url(../../assets/matcha-background.jpg);
+  height: 43.8vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-wrapper .about-title {
+  margin-top: 60px;
+  font-size: 30px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.about-wrapper .about-text-container {
+  margin-top: 30px;
+  width: 42.5rem;
+}
+
+.about-wrapper .about-text-container .about-text {
+  margin-bottom: 40px;
+  font-family: freight-light;
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 25px;
+}
+/*# sourceMappingURL=about.css.map */

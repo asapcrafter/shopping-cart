@@ -1,135 +1,65 @@
-/* CSS Reset */
-*, *::before, *::after { 
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    // box-sizing: border-box;
-  }
 
-:root {
-    --gray : rgb(131, 102, 102);
-    --border-gray: rgb(165, 165, 165);
-    --light-gray : #F3F3F3;
-    --soft-lavender: #e1e8f6;
-    --dark-gray: #DCE1E3;
-    --lapis: #39a0ca;
-    --ice-blue: #a0d2eb;
-    --peach: #f3756b;
-    --coffee: #e3dbc9;
-    --lavender: #ffbdef;
-}
+// @function rem($value) {
+//     @return ($value / 16) * 1rem;
+// }
 
-@function rem($value) {
-    @return ($value / 16) * 1rem;
-}
+// @font-face {
+//     font-family: futura;
+//     src: url(../../assets/FuturaBook.ttf);
+// }
 
-@font-face {
-    font-family: futura;
-    src: url(../../assets/FuturaBook.ttf);
-}
+// @font-face {
+//     font-family: freight-light;
+//     src: url(../../assets/FreightBigLight.otf);
+// }
 
-@font-face {
-    font-family: freight-light;
-    src: url(../../assets/FreightBigLight.otf);
-}
-
-body {
-    height: 100%;
-    width: 100%;
-    background-color: var(--soft-lavender);
-    font-family: futura, "Raleway", sans-serif;
-    display: flex;
-    flex-direction: column;
-    user-select: none;
-}
+// body {
+//     height: 100%;
+//     width: 100%;
+//     background-color: var(--soft-lavender);
+//     font-family: futura, "Raleway", sans-serif;
+//     display: flex;
+//     flex-direction: column;
+//     user-select: none;
+// }
 
 input {
     appearance: textfield;
 }
 
-// Header 
-.header {
-    width: 100%;
-    height: rem(90);
-    color: var(--peach);
-    display: flex;
-    justify-content: center;
-    background: white;
-    position: fixed;
-    top: 0px;
-    letter-spacing: rem(1);
-    word-spacing: rem(1.5);
-    .nav-wrapper {
-        display: flex;
-        flex-wrap: nowrap;
-        flex: 1 0 67%;
-        align-items: center;
-        max-width: 1200px;
-        #logo {
-            font-size: rem(35);
-            margin-left: 25px;
-        }
-        .nav-container {
-            width: rem(350);
-            height: 40px;
-            display: flex;
-            flex-grow: 1;
-            flex-shrink: 1;
-            text-align: right;
-            justify-content: flex-end;
-            margin-left: 30px;
-            margin-top: 12px;
-            font-size: 25px;
-            padding-right: 25px;
-            .nav-item {
-                font-size: 23px;
-                margin-left: 45px;
-                cursor: pointer;
-                letter-spacing: 1.2px;
-                word-spacing: 0px;
-                &:hover {
-                    border-bottom: #f3756b solid;
-                    border-width: 3px;
-                    opacity: 0.85;
-                    transition: 0.1s;
-                }
-            }
-        }
-    }
-}
 
 // Bottom 
-.bottom-wrapper {
-    margin-top: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    // position: absolute;
-    // bottom: 0;
-    background-color: white;
-    .bottom-container {
-        width: 1000px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: stretch;
-        flex-wrap: nowrap;
-        margin-top: 10px;
-        background: white;
-        .bottom-item {
-            display: flex;
-            flex-flow: column nowrap;
-            margin-bottom: 30px;
-            .bottom-title {
-                margin-top: 20px;
-                margin-bottom: 5px;
-                font-size: 17px;
-                font-weight: 600;
-            }
-        }
-    }
-}
+// .bottom-wrapper {
+//     margin-top: 150px;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     width: 100%;
+//     // position: absolute;
+//     // bottom: 0;
+//     background-color: white;
+//     .bottom-container {
+//         width: 1000px;
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-evenly;
+//         align-items: stretch;
+//         flex-wrap: nowrap;
+//         margin-top: 10px;
+//         background: white;
+//         .bottom-item {
+//             display: flex;
+//             flex-flow: column nowrap;
+//             margin-bottom: 30px;
+//             .bottom-title {
+//                 margin-top: 20px;
+//                 margin-bottom: 5px;
+//                 font-size: 17px;
+//                 font-weight: 600;
+//             }
+//         }
+//     }
+// }
 
 .content {
     // Set margin equal to the header heigh

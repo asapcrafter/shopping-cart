@@ -1,0 +1,75 @@
+$peach: #f3756b;
+$hot-lavender: #ffbdef;
+$gray : rgb(131, 102, 102);
+$border-gray: rgb(165, 165, 165);
+$light-gray : #F3F3F3;
+$soft-lavender: #e1e8f6;
+$dark-gray: #DCE1E3;
+$lapis: #39a0ca;
+$ice-blue: #a0d2eb;
+$coffee: #e3dbc9;
+$red: red;
+
+@function rem($value) {
+    @return ($value / 16) * 1rem;
+}
+
+@font-face {
+    font-family: futura;
+    src: url(../../assets/FuturaBook.ttf);
+}
+
+@font-face {
+    font-family: freight-light;
+    src: url(../../assets/FreightBigLight.otf);
+}
+
+.header {
+    width: 100%;
+    color: $peach;
+    height: rem(90);
+    display: flex;
+    justify-content: center;
+    background: white;
+    position: fixed;
+    top: 0px;
+    letter-spacing: rem(1);
+    word-spacing: rem(1.5);
+    .nav-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        flex: 1 0 67%;
+        align-items: center;
+        max-width: 1200px;
+        #logo {
+            font-size: rem(35);
+            margin-left: 25px;
+        }
+        .nav-container {
+            width: rem(350);
+            height: 40px;
+            display: flex;
+            flex-grow: 1;
+            flex-shrink: 1;
+            text-align: right;
+            justify-content: flex-end;
+            margin-left: 30px;
+            margin-top: 12px;
+            font-size: 25px;
+            padding-right: 25px;
+            .nav-item {
+                font-size: 23px;
+                margin-left: 45px;
+                cursor: pointer;
+                letter-spacing: 1.2px;
+                word-spacing: 0px;
+                &:hover {
+                    border-bottom: #f3756b solid;
+                    border-width: 3px;
+                    opacity: 0.85;
+                    transition: 0.1s;
+                }
+            }
+        }
+    }
+}

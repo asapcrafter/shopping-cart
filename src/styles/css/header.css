@@ -1,0 +1,84 @@
+@font-face {
+  font-family: futura;
+  src: url(../../assets/FuturaBook.ttf);
+}
+
+@font-face {
+  font-family: freight-light;
+  src: url(../../assets/FreightBigLight.otf);
+}
+
+.header {
+  width: 100%;
+  color: #f3756b;
+  height: 5.625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: white;
+  position: fixed;
+  top: 0px;
+  letter-spacing: 0.0625rem;
+  word-spacing: 0.09375rem;
+}
+
+.header .nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 67%;
+          flex: 1 0 67%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+}
+
+.header .nav-wrapper #logo {
+  font-size: 2.1875rem;
+  margin-left: 25px;
+}
+
+.header .nav-wrapper .nav-container {
+  width: 21.875rem;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  text-align: right;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-left: 30px;
+  margin-top: 12px;
+  font-size: 25px;
+  padding-right: 25px;
+}
+
+.header .nav-wrapper .nav-container .nav-item {
+  font-size: 23px;
+  margin-left: 45px;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+  word-spacing: 0px;
+}
+
+.header .nav-wrapper .nav-container .nav-item:hover {
+  border-bottom: #f3756b solid;
+  border-width: 3px;
+  opacity: 0.85;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/promo.scss"
+    ],
+    "names": [],
+    "file": "promo.css"
+}
