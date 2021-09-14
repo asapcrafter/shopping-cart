@@ -21,8 +21,10 @@ const Home = () => {
                         <div id="hg-button" onClick={() => handleClick('/shopping-cart/shop')}>SHOP NOW</div>
                     </div>
                 </div>
-                <div className="home description">
-            
+                <div className="home-description-container">
+                    <div className="home-description-text">
+                        SKIN CARE SPOTLIGHT 
+                    </div>
                 </div>
                 < Promo />
             </div>

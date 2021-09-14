@@ -74,4 +74,22 @@
   color: #eb359c;
   background-color: #ffe6e6;
 }
+
+#home #home-wrapper .home-description-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#home #home-wrapper .home-description-container .home-description-text {
+  font-size: calc(25px + 1vw);
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  margin-top: 65px;
+  color: #f3756b;
+}
 /*# sourceMappingURL=home.css.map */

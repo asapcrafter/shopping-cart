@@ -74,5 +74,17 @@
                 }
             }
         }
+        .home-description-container {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            .home-description-text {
+                font-size: calc(25px + 1vw);
+                letter-spacing: 1px;
+                margin-bottom: 40px;
+                margin-top: 65px;
+                color: $peach;
+            }
+        }
     }
 }
