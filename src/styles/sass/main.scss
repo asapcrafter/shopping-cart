@@ -40,3 +40,8 @@ body {
     flex-direction: column;
     user-select: none;
 }
+
+.content {
+  // Set margin equal to the header heigh
+  margin-top: 90px;
+}

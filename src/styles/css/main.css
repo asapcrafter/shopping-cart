@@ -33,4 +33,8 @@ body {
       -ms-user-select: none;
           user-select: none;
 }
+
+.content {
+  margin-top: 90px;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,6 @@
 import React from 'react';
 import {useHistory} from 'react-router-dom';
+import '../styles/css/promo.css'
 
 const Promo = () => {
     const history = useHistory();

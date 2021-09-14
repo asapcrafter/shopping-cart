@@ -22,7 +22,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="home description">
-                    heofshoehsfe
+            
                 </div>
                 < Promo />
             </div>

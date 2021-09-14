@@ -24,15 +24,11 @@ const Item = (props) => {
                     {props.description}
                 </div>
                 <div className="quantity-container">
-                    <div className="product-price">
-                        ${props.price}
-                    </div>
+                    <div className="product-price">${props.price}</div>
                     <div className="quant-minus" onClick={decrementQuantity}>-</div>
                     <input type="number" name="" className='quant-input' value={quantity} onChange={handleChange} min='0' />
                     <div className="quant-add" onClick={incrementQuantity}>+</div>
-                    <div className="add-product">
-                        Add to Bag
-                    </div>
+                    <div className="add-product">Add to Bag</div>
                 </div>
             </div>
         </div>
